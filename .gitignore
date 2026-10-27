@@ -1,0 +1,34 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.vs/
+*.swp
+
+# Build output
+*.o
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.dSYM/
+Debug/
+Release/
+x64/
+build/
+bin/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — never commit
+.env
+*.pem
+*.key
+*_api_key*
+
+# Local render artifacts
+.render.html
